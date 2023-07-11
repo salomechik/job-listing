@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: #effafa;
+  background-image: url(./images/bg-header-mobile.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+.header-picture {
+  display: none;
+}
+.header-picturemb {
+  display: block;
+}
+header {
+  background-color: #7c8f8f;
+}
+.info-box {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 257px;
+  margin-top: 36px;
+  padding: 39px 24px 24px 24px;
+}
+.logo {
+  width: 48px;
+  height: 48px;
+  margin-top: -65px;
+  margin-left: 0px;
+  position: absolute;
+}
+.info-company {
+  color: #5ca5a5;
+  font-family: League Spartan;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.first-first-child {
+  border-radius: 12px;
+  background: #5ca5a5;
+  padding: 3px 8px;
+  width: 51px;
+  height: 24px;
+  margin-top: -8px;
+  margin-left: 50px;
+}
+.first-child {
+  display: flex;
+  flex-direction: row;
+}
+.new {
+  display: none;
+  color: #fff;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: -0.108px;
+  text-transform: uppercase;
+}
+.title {
+  color: #2b3939;
+  font-family: League Spartan;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.second-child {
+  padding: 14px 0 8px 0;
+}
+.third-child {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding-bottom: 15px;
+}
+.posted,
+.contract,
+.location {
+  color: #7c8f8f;
+  font-family: League Spartan;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.123px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #b7c4c4;
+  
+}
+.container,
+.box,
+.level,
+.role {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 4px;
+  background: rgba(92, 165, 165, 0.1);
+  color: #5ca5a5;
+  font-family: League Spartan;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.123px;
+  padding: 5px;
+}
+.fourth-child{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  flex-wrap: wrap;
+
+}
